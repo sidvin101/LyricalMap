@@ -95,7 +95,8 @@ def extract_lyrics(artist_list, song_list):
     all_songs = []
 
     #Sets up the genius api
-    Access_Token = st.secrets["LYRICS_TOKEN"]
+    #Access_Token = st.secrets["LYRICS_TOKEN"]
+    Access_Token = 'QrASp8KyanlHTSsqViIQ-IVKJtDQ770UOg8YdgeL1mB1YW6gwwOzZZA0hqmj_K9z'
     genius = Genius(Access_Token, timeout=30)  # Increase timeout to 30 seconds
 
     #Goes to every artist
