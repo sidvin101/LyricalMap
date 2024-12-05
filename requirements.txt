@@ -1,7 +1,7 @@
-sentence_transformers
-scikit-learn
-matplotlib
-torch
-lyricsgenius
-mpl_toolkits.mplot3d
-openai
+streamlit==1.39.0
+sentence-transformers==3.3.1
+scikit-learn==1.5.1
+matplotlib==3.9.2
+torch==2.5.1
+lyricsgenius==3.0.1
+openai==1.53.0
