@@ -96,7 +96,7 @@ def extract_lyrics(artist_list, song_list):
 
     #Sets up the genius api
     #Access_Token = st.secrets["LYRICS_TOKEN"]
-    Access_Token = 'QrASp8KyanlHTSsqViIQ-IVKJtDQ770UOg8YdgeL1mB1YW6gwwOzZZA0hqmj_K9z'
+    Acess_Token = "YOUR GENIUS TOKEN HERE" #######################################################################################################################################################################
     genius = Genius(Access_Token, timeout=30)  # Increase timeout to 30 seconds
 
     #Goes to every artist
@@ -215,7 +215,8 @@ def custom_clusters(num_clusters, embeddings_tsne, kmeans_labels, all_lyrics, al
             input_text = prompt + cluster_text
 
             # Initialize OpenAI client
-            api_key = st.secrets["OPENAI_KEY"]
+            #api_key = st.secrets["OPENAI_KEY"]
+            api_key = "YOUR OPENAI KEY HERE" ##############################################################################################################################################################
             client = OpenAI(api_key=api_key)  
             
             # Make the API call
