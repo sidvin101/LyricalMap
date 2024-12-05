@@ -1,7 +1,9 @@
 # LyricalMap
 My Final Project for Duke's XAI program
 
-Please see this video for the pitch:
+Pitch: https://drive.google.com/file/d/1GzIxh159VuRSlReU1hJ28P08i49CQyRO/view?usp=sharing
+
+Live Demo: https://drive.google.com/file/d/18yTS-l-0jnZrfLPKklcXE8Teujut-xfC/view?usp=sharing
 
 
 # PLEASE READ
